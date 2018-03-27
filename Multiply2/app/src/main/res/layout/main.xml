@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/thinkTimeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="think time" />
+
+    <SeekBar
+        android:id="@+id/thinkTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:progress="63" />
+
+    <TextView
+        android:id="@+id/intervalTimeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="interval time" />
+
+    <SeekBar
+        android:id="@+id/intervalTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:progress="36" />
+
+    <TextView
+        android:id="@+id/pitchTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pitch" />
+
+    <SeekBar
+        android:id="@+id/pitch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:progress="100" />
+
+    <TextView
+        android:id="@+id/speedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="speed" />
+
+    <SeekBar
+        android:id="@+id/speed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:progress="60" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:id="@+id/stop"/>
+</LinearLayout>
